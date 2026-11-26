@@ -45,7 +45,7 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 </div>
 <div class='paper-box-text' markdown="1">
 
-[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://arxiv.org/abs/2605.06166)
+[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://neurips.cc/virtual/2026/loc/sydney/poster/149252)
 
 **Xinrui Chen**, Liu Yang, Ou Wu<sup>*</sup>
 
@@ -65,7 +65,7 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://openreview.net/forum?id=GBTUVO9vkj)
+[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://proceedings.iclr.cc/paper_files/paper/2026/hash/72c12e48c6135762f56bf188cd2479d2-Abstract-Conference.html)
 
 **Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
 
@@ -100,14 +100,14 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 <div class='paper-box-image'>
 <div>
 <div class="badge">EMNLP 2026</div>
-<img src='images/r2edit.png' alt="R2Edit framework" width="100%">
+<img src='images/r2-edit.png' alt="R2Edit framework" width="100%">
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
 
 [R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/)
 
-Xu Cao<sup>*</sup>, **Xinrui Chen**<sup>*</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>‡</sup>, Yi Du
+Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>*</sup>, Yi Du
 
 **[GitHub](https://github.com/caoxu0109/R2Edit)**
 
@@ -125,7 +125,7 @@ Xu Cao<sup>*</sup>, **Xinrui Chen**<sup>*</sup>, Qing Liu, Mengyang Li, Ou Wu<su
 </div>
 <div class='paper-box-text' markdown="1">
 
-[DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization](https://arxiv.org/abs/2610.32501)
+[DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization](https://neurips.cc/virtual/2026/loc/sydney/poster/151453)
 
 Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
@@ -162,7 +162,7 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 <div class='paper-box-image'>
 <div>
 <div class="badge">Under Review</div>
-<img src='images/sid.png' alt="SID framework" width="100%">
+<img src='images/SID.png' alt="SID framework" width="100%">
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
@@ -190,6 +190,24 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 Linze Wu, **Xinrui Chen**<sup>*</sup>
 
 - Proposed **PASK**, a parser-aware KV-persistence framework that reuses parser transitions to identify structurally critical tokens and allocate KV retention across layer groups under a fixed memory budget.
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">Under Review</div>
+<img src='images/bridge.png' alt="BRIDGE framework" width="100%">
+</div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+[Token Utility Is Selection-Conditioned: Coupled Selection of Prompt Context and Response Supervision for Instruction Tuning](https://arxiv.org/abs/2609.22943)
+
+Can Wu, **Xinrui Chen**, Ou Wu, Yi Du
+
+- Proposed **BRIDGE**, a coupled token-selection framework that jointly selects prompt context and response supervision by modeling selection-conditioned utility under the opposite side's retained subset, with budgeted alternating selection and structure-aware projection.
 
 </div>
 </div>
