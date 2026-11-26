@@ -52,6 +52,8 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 
 **[GitHub](https://github.com/ChnIRuI/DualSFT)**
 
+**Keywords:** Efficient Fine-tuning · Joint Data–Parameter Selection
+
 - Proposed **DualSFT**, a one-shot dual-scoring framework that jointly selects trainable parameters and training samples under a shared validation objective, deriving both selection signals from a unified gradient-interaction matrix.
 
 </div>
@@ -71,6 +73,8 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 **Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
 
 **[GitHub](https://github.com/ChnIRuI/PoRT_LLM_Unlearning)**
+
+**Keywords:** Robust Unlearning · Adversarial Defense
 
 - Proposed **PoRT**, a robust unlearning framework that integrates dynamic input cleaning, joint post-judgment of queries and responses, and selective multi-round self-correction to defend against adversarial attacks.
 
@@ -92,6 +96,8 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 
 **[GitHub](https://github.com/ChnIRuI/DualSelect)**
 
+**Keywords:** Safe Fine-tuning · Task–Reference Selection
+
 - Proposed **DualSelect**, a coupled task–reference selection framework that identifies task-conditioned safety references and selects compatible task samples through entropy-regularized scoring and reference-gradient correction.
 
 </div>
@@ -111,6 +117,8 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>*</sup>, Yi Du
 
 **[GitHub](https://github.com/caoxu0109/R2Edit)**
+
+**Keywords:** Knowledge Editing · Relation Replacement
 
 - Proposed **R²Edit** and ReEditBench for relation-replacement editing, combining target-smoothed forgetting to suppress obsolete relations with curriculum-guided self-paced learning to introduce new relations.
 
@@ -132,11 +140,12 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
 **[GitHub](https://github.com/luciabcd/DRIVE)**
 
+**Keywords:** Data-centric Fine-tuning · Diversity-aware Weighting
+
 - Proposed **DRIVE**, a differentiable data-weighting framework that integrates Shapley-based contribution decomposition, covariance-based diversity modeling, and prior regularization to balance knowledge retention and task adaptation.
 
 </div>
 </div>
-
 
 <div class='paper-box'>
 <div class='paper-box-image'>
@@ -152,6 +161,8 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 **Xinrui Chen**, Mengyang Li, Ou Wu<sup>*</sup>, Ji Zhang
 
 **[GitHub](https://github.com/ChnIRuI/HiLoRe)**
+
+**Keywords:** Efficient GRPO · Activation Management
 
 - Proposed **HiLoRe**, an update-aware activation-recovery framework for GRPO training that coordinates high-precision storage, low-precision compression, and deterministic recomputation under memory and approximation-risk constraints.
 
@@ -171,6 +182,8 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
 **Xinrui Chen**
 
+**Keywords:** Sample-wise Interactions · Stability–Plasticity
+
 - Proposed **SID**, a sample-wise interaction framework for characterizing how individual training examples jointly shape optimization stability and task adaptation during LLM fine-tuning.
 
 </div>
@@ -189,6 +202,8 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
 Linze Wu, **Xinrui Chen**<sup>*</sup>
 
+**Keywords:** LLM Inference · KV Cache Optimization · Structured Generation
+
 - Proposed **PASK**, a parser-aware KV-persistence framework that reuses parser transitions to identify structurally critical tokens and allocate KV retention across layer groups under a fixed memory budget.
 
 </div>
@@ -206,6 +221,8 @@ Linze Wu, **Xinrui Chen**<sup>*</sup>
 [Token Utility Is Selection-Conditioned: Coupled Selection of Prompt Context and Response Supervision for Instruction Tuning](https://arxiv.org/abs/2609.22943)
 
 Can Wu, **Xinrui Chen**, Ou Wu<sup>*</sup>, Yi Du
+
+**Keywords:** Instruction Tuning · Prompt–Response Selection
 
 - Proposed **BRIDGE**, a coupled token-selection framework that jointly selects prompt context and response supervision by modeling selection-conditioned utility under the opposite side's retained subset, with budgeted alternating selection and structure-aware projection.
 
