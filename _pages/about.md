@@ -27,9 +27,13 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 
 # 🔥 News
 
-- *2026.09*: 🎉🎉 **Two papers** accepted by **NeurIPS 2026**. *(Efficient LLM Fine-tuning & Data-centric Adaptation)*
-- *2026.08*: 🎉🎉 **Two papers** accepted by **EMNLP 2026**. *(Safe LLM Fine-tuning & Relation Replacement Editing)*
-- *2026.01*: 🎉🎉 **One paper** accepted by **ICLR 2026**. *(Robust LLM Unlearning & Model Safety)*
+- *2026.10*: 🏅 Received the **National Scholarship (Graduate)** at UCAS.
+- *2026.09*: 🎉🎉 **Two papers** accepted at **NeurIPS 2026**. *(Efficient LLM Fine-tuning & Data-centric Adaptation)*
+- *2026.08*: 🎉🎉 **Two papers** accepted at **EMNLP 2026**. *(Safe LLM Fine-tuning & Relation Replacement Editing)*
+- *2026.01*: 🎉 **One paper** accepted at **ICLR 2026**. *(Robust LLM Unlearning & Model Safety)*
+- *2025.09*: 🎓 Began my M.S. studies in Artificial Intelligence at the **Hangzhou Institute for Advanced Study, UCAS**, under the supervision of Prof. Ou Wu.
+- *2025.06*: 🎓 Graduated from **Northeastern University** with a B.Eng. in Software Engineering.
+- *2024.09*: 🎉 Received a recommendation-based admission to the **Hangzhou Institute for Advanced Study, UCAS**, to pursue graduate study under Prof. Ou Wu.
 
 # 📝 Publications
 
@@ -208,13 +212,24 @@ Can Wu, **Xinrui Chen**, Ou Wu<sup>*</sup>, Yi Du
 </div>
 </div>
 
-# 🎖 Honors and Awards
+# 🏅 Honors and Awards
 
-- National Scholarship.
-- Outstanding Three-Good Student Award.
-- First-Class Scholarship.
-- H Award, International Undergraduate Mathematical Contest in Modeling (2023 and 2024).
-- Third Place, Northeastern University Campus Debate Competition.
+- *2026.10*, **National Scholarship (Graduate)**.
+- *2026.09*, First-Class Scholarship, University of Chinese Academy of Sciences (UCAS).
+- *2026.06*, Outstanding Model Three-Good Student Award, University of Chinese Academy of Sciences (UCAS).
+- *2026.06*, Three-Good Student Award, University of Chinese Academy of Sciences (UCAS).
+- *2024.05*, Honorable Mention, Interdisciplinary Contest in Modeling (ICM).
+- *2024.01*, Meritorious Winner, 9th ShuWei Cup International Undergraduate Mathematical Contest in Modeling.
+- *2023.09*, Second-Class Scholarship, Northeastern University.
+- *2023.09*, Outstanding Student, Northeastern University.
+- *2023.09*, Third-Class Scholarship, Beike.
+- *2023.06*, Third Prize (Type C), National English Competition for College Students (NECCS).
+- *2023.05*, Honorable Mention, Mathematical Contest in Modeling (MCM).
+- *2023.05*, Third Place, Northeastern University Campus Debate Competition.
+- *2022.09*, **National Scholarship (Undergraduate)**.
+- *2022.09*, First-Class Scholarship, Northeastern University.
+- *2022.09*, Academic Excellence Award, School of Software, Northeastern University.
+- *2022.09*, Outstanding Model Communist Youth League Member, Northeastern University.
 
 # 📖 Education
 
