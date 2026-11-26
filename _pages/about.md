@@ -33,8 +33,6 @@ My research has led to papers accepted at **NeurIPS, ICLR, and EMNLP**, covering
 
 # 📝 Publications
 
-## Accepted
-
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
@@ -135,7 +133,6 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 </div>
 
-# 📄 Under Review
 
 <div class='paper-box'>
 <div class='paper-box-image'>
@@ -224,14 +221,7 @@ Can Wu, **Xinrui Chen**, Ou Wu<sup>*</sup>, Yi Du
 - **2025.09 – 2028.06 (Expected):** M.S. in Artificial Intelligence, University of Chinese Academy of Sciences.
 - **2021.09 – 2025.06:** B.Eng. in Software Engineering, Northeastern University.
 
-# 💻 Technical Skills
+# 💼 Internship Experience
 
-- **Programming:** Python, PyTorch, Linux, and Git.
-- **LLM Training:** SFT, DPO, GRPO, and LoRA-based parameter-efficient fine-tuning.
-- **Training Frameworks:** Transformers, PEFT, LLaMAFactory, and DeepSpeed; multi-GPU FSDP training.
-- **Parallelism:** Tensor Parallelism (TP), Sequence Parallelism (SP), and Pipeline Parallelism (PP).
+- *Oct. 2024 – Jan. 2025*, Software Development Intern, **CARIZON (Beijing) Technology Co., Ltd.**
 
-# 📧 Contact
-
-- **Email:** [chenxinrui25@mails.ucas.ac.cn](mailto:chenxinrui25@mails.ucas.ac.cn)
-- **GitHub:** [CHNIRUI-Code](https://github.com/CHNIRUI-Code)
