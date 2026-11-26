@@ -17,20 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a master's student in Artificial Intelligence at the **University of Chinese Academy of Sciences (UCAS)**. I received my bachelor's degree in Software Engineering from **Northeastern University**.
+I am currently a master's student in Artificial Intelligence at the **Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences (UCAS)**, under the supervision of Professor [Ou Wu](https://www.scholat.com/wuou). I received my bachelor's degree in Software Engineering from **Northeastern University**.
 
-My research focuses on **efficient post-training, safety, and knowledge updating for Large Language Models (LLMs)**. My interests include data- and parameter-efficient fine-tuning, robust unlearning, knowledge editing, and efficient LLM training and inference.
+My research interests include **LLM post-training, agentic reinforcement learning, and recursive self-improvement (RSI)**. I am particularly interested in data-centric optimization, efficient model adaptation, LLM safety and unlearning, and reliable knowledge updating, with the broader goal of developing more capable, efficient, and trustworthy AI systems.
 
-# 🔬 Research Interests
+My research has led to papers accepted at **NeurIPS, ICLR, and EMNLP**, covering efficient LLM fine-tuning, robust unlearning, and safe knowledge updating. I am also exploring how reinforcement learning, agentic systems, and recursive learning can enable LLMs to continuously improve through interaction and experience.
 
-- **Efficient LLM Post-training:** Data- and parameter-efficient adaptation, coordinated sample and parameter selection.
-- **LLM Safety and Unlearning:** Robust unlearning and safety preservation under adversarial attacks.
-- **Knowledge Editing:** Reliable factual updating and relation replacement with controlled side effects.
-- **Efficient LLM Training:** Memory- and computation-efficient optimization for LLM reinforcement learning.
+**I am currently seeking industry opportunities and Ph.D. positions in large language models. Please feel free to contact me via email ([chenxinrui25@mails.ucas.ac.cn](mailto:chenxinrui25@mails.ucas.ac.cn), [chnirui224@gmail.com](mailto:chnirui224@gmail.com)).**
 
 # 🔥 News
 
-- 2026: 🎉 Papers on efficient fine-tuning, robust unlearning, and safe LLM adaptation accepted at **NeurIPS, ICLR, and EMNLP**.
+- *2026.09*: 🎉🎉 **Two papers** accepted by **NeurIPS 2026**. *(Efficient LLM Fine-tuning & Data-centric Adaptation)*
+- *2026.08*: 🎉🎉 **Two papers** accepted by **EMNLP 2026**. *(Safe LLM Fine-tuning & Relation Replacement Editing)*
+- *2026.01*: 🎉🎉 **One paper** accepted by **ICLR 2026**. *(Robust LLM Unlearning & Model Safety)*
 
 # 📝 Publications
 
@@ -205,7 +204,7 @@ Linze Wu, **Xinrui Chen**<sup>*</sup>
 
 [Token Utility Is Selection-Conditioned: Coupled Selection of Prompt Context and Response Supervision for Instruction Tuning](https://arxiv.org/abs/2609.22943)
 
-Can Wu, **Xinrui Chen**, Ou Wu, Yi Du
+Can Wu, **Xinrui Chen**, Ou Wu<sup>*</sup>, Yi Du
 
 - Proposed **BRIDGE**, a coupled token-selection framework that jointly selects prompt context and response supervision by modeling selection-conditioned utility under the opposite side's retained subset, with budgeted alternating selection and structure-aware projection.
 
