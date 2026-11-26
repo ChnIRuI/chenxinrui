@@ -17,160 +17,241 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a master's student in Artificial Intelligence at the **University of Chinese Academy of Sciences (UCAS)**. I received my bachelor's degree in Software Engineering from **Northeastern University**.
+I am currently a master's student in Artificial Intelligence at the **University of Chinese Academy of Sciences (UCAS)**. I received my bachelor's degree in Software Engineering from **Northeastern University**.
 
-My research focuses on **efficient post-training, safety, and knowledge updating for large language models (LLMs)**. My interests include data- and parameter-efficient fine-tuning, robust unlearning, knowledge editing, and memory-efficient LLM training.
+My research focuses on **efficient post-training, safety, and knowledge updating for Large Language Models (LLMs)**. My interests include data- and parameter-efficient fine-tuning, robust unlearning, knowledge editing, and efficient LLM training and inference.
 
 # 🔬 Research Interests
 
-- **Efficient LLM Post-training:** Data- and parameter-efficient adaptation, coordinated sample and parameter selection, and resource-aware optimization.
-- **LLM Safety and Unlearning:** Robust removal of undesired knowledge and harmful behaviors while preserving general capabilities.
-- **Knowledge Editing and Updating:** Reliable factual updates and relation replacement with controlled side effects.
-- **Efficient LLM Training:** Memory- and computation-aware optimization for reinforcement-learning-based LLM training.
+- **Efficient LLM Post-training:** Data- and parameter-efficient adaptation, coordinated sample and parameter selection.
+- **LLM Safety and Unlearning:** Robust unlearning and safety preservation under adversarial attacks.
+- **Knowledge Editing:** Reliable factual updating and relation replacement with controlled side effects.
+- **Efficient LLM Training:** Memory- and computation-efficient optimization for LLM reinforcement learning.
 
 # 🔥 News
 
-- Research papers on efficient LLM fine-tuning, robust unlearning, and safe model adaptation have been accepted at **NeurIPS, ICLR, and EMNLP**. See the publication list below for details.
+- 2026: 🎉 Papers on efficient fine-tuning, robust unlearning, and safe LLM adaptation accepted at **NeurIPS, ICLR, and EMNLP**.
 
 # 📝 Publications
 
-## Accepted
+## NeurIPS 2026
 
-<!--
-Add paper thumbnails under images/papers/ using the exact filenames referenced below.
-Recommended: landscape images (16:9), at least 800 px wide, with a consistent visual style.
-Use a framework overview, teaser figure, or representative result figure for each paper.
--->
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS · Accepted</div><img src='images/papers/dualsft.png' alt="DualSFT framework overview" width="100%"></div></div>
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">NeurIPS 2026</div>
+<img src='images/dualsft.png' alt="DualSFT framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-**One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning**
+<div style="text-align:right; margin-bottom:6px;">
+<span class="badge">* Corresponding Author</span>
+</div>
 
-**Xinrui Chen**, L. Yang, et al. · **First Author**
+[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://arxiv.org/abs/2605.06166)
 
-Introduces **DualSFT**, a one-shot framework that jointly selects trainable parameters and training samples under a shared validation objective. Parameter importance and sample utility are derived from column-wise and row-wise aggregation of a shared gradient-interaction matrix. Confidence-weighted self-distillation further helps mitigate forgetting without access to pre-training data.
+**Xinrui Chen**, Liu Yang, Ou Wu<sup>*</sup>
 
-- **Result:** Under matched budgets of 5% trainable parameters and 10% training data, DualSFT improves the combined task-adaptation and general-capability score on Magicoder over the strongest same-budget sequential combination by **2.46**, **2.59**, and **3.22 percentage points** on Llama-3.2-3B, Gemma-3-4B, and Qwen-3.5-9B, respectively.
+**[GitHub](https://github.com/ChnIRuI/DualSFT)**
 
-<!-- Add Paper / Project / Code links here when public URLs are available. -->
+- Proposed **DualSFT**, a one-shot dual-scoring framework that jointly selects trainable parameters and training samples under a shared validation objective, deriving both selection signals from a unified gradient-interaction matrix.
 
-</div></div>
+</div>
+</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR · Accepted</div><img src='images/papers/port.png' alt="PoRT framework overview" width="100%"></div></div>
+## ICLR 2026
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">ICLR 2026</div>
+<img src='images/port.png' alt="PoRT framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-**Robust LLM Unlearning via Post Judgment and Multi-round Thinking**
+<div style="text-align:right; margin-bottom:6px;">
+<span class="badge">* Corresponding Author</span>
+</div>
 
-**Xinrui Chen**, X. Cao, et al. · **First Author**
+[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://openreview.net/forum?id=GBTUVO9vkj)
 
-Proposes **PoRT**, a parameter-free robust unlearning framework that dynamically cleans inputs, jointly judges questions and answers, and triggers multi-round self-correction for low-confidence outputs.
+**Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
 
-- **Result:** Under noisy-prefix attacks on WMDP, the hazardous-biology knowledge accuracy of Qwen1.5-14B-Chat is **25.3%**, close to the 25% random level and below ECO's 67.0%. Zephyr-7B retains **58.9%** MMLU accuracy, matching the original model.
+**[GitHub](https://github.com/ChnIRuI/PoRT_LLM_Unlearning)**
 
-<!-- Add Paper / Project / Code links here when public URLs are available. -->
+- Proposed **PoRT**, a robust unlearning framework integrating dynamic input cleaning, confidence-aware post-judgment of questions and responses, and selective multi-round self-correction to defend against adversarial attacks.
 
-</div></div>
+</div>
+</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP · Accepted</div><img src='images/papers/dualselect.png' alt="DualSelect framework overview" width="100%"></div></div>
+## EMNLP 2026
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">EMNLP 2026</div>
+<img src='images/dualselect.png' alt="DualSelect framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-**Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning**
+<div style="text-align:right; margin-bottom:6px;">
+<span class="badge">* Corresponding Author</span>
+</div>
 
-**Xinrui Chen**, J. Zhang, et al. · **First Author**
+[Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning](https://aclanthology.org/2026.emnlp-main.862/)
 
-Proposes **DualSelect**, which couples task-data selection with safety-reference selection. It selects safety references according to retention loss and gradient conflict, then selects task samples compatible with the reference-gradient direction. Entropy-regularized scoring, delayed refresh, and gradient correction help control overhead and constrain harmful updates.
+**Xinrui Chen**, Jianhao Zhang, Ou Wu<sup>*</sup>, Di Gao
 
-- **Result:** On REDORCA, Safety Avg. improves by **5.10–5.80 percentage points** over the strongest baseline across three 1B–8B models. For Llama-3-8B, the attack success rate decreases from **52.8% to 15.8%**, with a false refusal rate of **5.8%**.
+**[GitHub](https://github.com/ChnIRuI/DualSelect)**
 
-<!-- Add Paper / Project / Code links here when public URLs are available. -->
+- Proposed **DualSelect**, a coupled task–reference selection framework that identifies task-conditioned safety references and selects compatible task samples through entropy-regularized scoring and reference-gradient correction.
 
-</div></div>
+</div>
+</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP · Accepted</div><img src='images/papers/r2-edit.png' alt="R2 Edit framework overview" width="100%"></div></div>
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">EMNLP 2026</div>
+<img src='images/r2edit.png' alt="R2Edit framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-**R2 Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning**
+<div style="text-align:right; margin-bottom:6px;">
+<span class="badge">* Equal Contribution</span>
+<span class="badge">‡ Corresponding Author</span>
+</div>
 
-X. Cao*, **Xinrui Chen***, et al. · **Co-first Author**
+[R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/)
 
-Introduces **ReEditBench**, a benchmark for relation-replacement editing, and a method that combines target-smoothed forgetting with self-paced learning. The approach first suppresses the old relation and then injects the new relation from easier to harder examples.
+Xu Cao<sup>*†</sup>, **Xinrui Chen**<sup>*</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>‡</sup>, Yi Du
 
-- **Result:** On LLaMA3, relation-replacement success improves from **52.18% to 81.71%** over AlphaEdit. On GPT2-XL, the old-relation retention rate changes from **91.31% to 48.78%**.
+**[GitHub](https://github.com/caoxu0109/R2Edit)**
 
-<!-- Add Paper / Project / Code links here when public URLs are available. -->
+- Proposed **R²Edit** and ReEditBench for relation-replacement editing, combining target-smoothed forgetting to suppress obsolete relations with curriculum-guided self-paced learning to introduce new relations.
 
-</div></div>
+<small><sup>*</sup> Equal contribution. <sup>†</sup> Work conducted during an internship at HIAS, UCAS. <sup>‡</sup> Corresponding author.</small>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS · Accepted</div><img src='images/papers/drive.png' alt="DRIVE framework overview" width="100%"></div></div>
+</div>
+</div>
+
+## NeurIPS 2026
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">NeurIPS 2026</div>
+<img src='images/drive.png' alt="DRIVE framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-**DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization**
+<div style="text-align:right; margin-bottom:6px;">
+<span class="badge">* Corresponding Author</span>
+</div>
 
-Q. Liu, **Xinrui Chen**, et al. · **Second Author**
+[DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization](https://arxiv.org/abs/2610.32501)
 
-Studies data-aware fine-tuning through a weighting strategy that considers sample contribution and diversity together with prior regularization.
+Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
-<!-- Add Paper / Project / Code links here when public URLs are available. -->
+**[GitHub](https://github.com/luciabcd/DRIVE)**
 
-</div></div>
+- Proposed **DRIVE**, a unified differentiable data-weighting framework that integrates Shapley-based contribution decomposition, covariance-based diversity modeling, and prior regularization to balance knowledge retention and task adaptation.
 
-## Under Review
+</div>
+</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/hilore.png' alt="HiLoRe framework overview" width="100%"></div></div>
+# 📄 Under Review
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">Under Review</div>
+<img src='images/hilore.png' alt="HiLoRe framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-**HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training**
+<div style="text-align:right; margin-bottom:6px;">
+<span class="badge">* Corresponding Author</span>
+</div>
 
-**Xinrui Chen** · **First Author**
+[HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training](https://arxiv.org/abs/2609.33570)
 
-Studies the trade-off between activation memory and recomputation overhead in GRPO training. HiLoRe uses policy-update signals to estimate approximation risk and jointly schedules high-precision storage, low-precision compression, and recomputation under memory and error budgets.
+**Xinrui Chen**, Mengyang Li, Ou Wu<sup>*</sup>, Ji Zhang
 
-- **Result:** With a peak-memory budget no greater than 1.10× GC at a response length of 2K, throughput improves by up to **13.5%** over GC and **7.9%** over the fastest comparator. Across five configurations, the average downstream score differs from GC by less than **0.6 percentage points**.
+**[GitHub](https://github.com/ChnIRuI/HiLoRe)**
 
-</div></div>
+- Proposed **HiLoRe**, an update-aware activation-recovery framework for GRPO training that coordinates high-precision storage, low-precision compression, and deterministic recomputation under memory and approximation-risk constraints.
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/sid.png' alt="SID framework overview" width="100%"></div></div>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">Under Review</div>
+<img src='images/sid.png' alt="SID framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
 **Sample-wise Interactions: Dissecting the Stability-Plasticity Dilemma in LLM Fine-tuning**
 
-**Xinrui Chen** · **First Author**
+**Xinrui Chen** · First Author
 
-Studies sample-wise interactions during LLM fine-tuning and their role in the stability–plasticity trade-off.
+- Studies sample-wise interactions during LLM fine-tuning, analyzing how individual training examples jointly influence optimization stability and task adaptation.
 
-</div></div>
+<!-- Add the complete co-author list and author-role markers after confirmation. -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/pask.png' alt="PASK framework overview" width="100%"></div></div>
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div>
+<div class="badge">Under Review</div>
+<img src='images/pask.png' alt="PASK framework" width="100%">
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
-**Parser Transitions Already Reveal Structural Responsibility: KV Persistence for Structured Generation**
+<div style="text-align:right; margin-bottom:6px;">
+<span class="badge">* Corresponding Author</span>
+</div>
 
-**Xinrui Chen** · **Corresponding Author**
+[Parser Transitions Already Reveal Structural Responsibility: KV Persistence for Structured Generation](https://arxiv.org/abs/2608.28276)
 
-Investigates parser-transition signals as indicators of structural responsibility for KV-cache persistence in structured generation.
+Linze Wu, **Xinrui Chen**<sup>*</sup>
 
-</div></div>
+- Proposed **PASK**, a parser-aware KV-persistence framework that reuses parser transitions to identify structurally critical tokens and allocate KV retention across layer groups under a fixed memory budget.
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
 
-- **National Scholarship**
-- **Outstanding Three-Good Student Award**
-- **First-Class Scholarship**
-- **H Award**, International Undergraduate Mathematical Contest in Modeling (2023 and 2024)
-- **Third Place**, Northeastern University Campus Debate Competition
+- National Scholarship.
+- Outstanding Three-Good Student Award.
+- First-Class Scholarship.
+- H Award, International Undergraduate Mathematical Contest in Modeling (2023 and 2024).
+- Third Place, Northeastern University Campus Debate Competition.
 
 # 📖 Education
 
 - **2025.09 – 2028.06 (Expected):** M.S. in Artificial Intelligence, University of Chinese Academy of Sciences.
 - **2021.09 – 2025.06:** B.Eng. in Software Engineering, Northeastern University.
 
-# 🧰 Technical Skills
+# 💻 Technical Skills
 
 - **Programming:** Python, PyTorch, Linux, and Git.
-- **LLM Training:** Supervised fine-tuning (SFT), direct preference optimization (DPO), group relative policy optimization (GRPO), and LoRA-based parameter-efficient fine-tuning.
-- **Training Frameworks:** Transformers, PEFT, LLaMAFactory, and DeepSpeed; experience with gradient accumulation and multi-GPU FSDP training.
-- **Parallelism:** Familiar with the basic mechanisms and use cases of tensor parallelism (TP), sequence parallelism (SP), and pipeline parallelism (PP).
+- **LLM Training:** SFT, DPO, GRPO, and LoRA-based parameter-efficient fine-tuning.
+- **Training Frameworks:** Transformers, PEFT, LLaMAFactory, and DeepSpeed; multi-GPU FSDP training.
+- **Parallelism:** Tensor Parallelism (TP), Sequence Parallelism (SP), and Pipeline Parallelism (PP).
 
 # 📧 Contact
 
