@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xinrui Chen"
-description              : "Personal academic homepage of Xinrui Chen. Research interests include efficient LLM post-training, model safety, and knowledge updating."
+description              : "Research interests include LLM post-training, Agentic RL, and RSI."
 repository               : "ChnIRuI/chenxinrui"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Xinrui Chen"
   avatar           : "images/xinrui-chen.jpg"
   bio              : "M.S. Student in Artificial Intelligence, University of Chinese Academy of Sciences"
-  location         : ""
+  location         : "Hangzhou, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=7-kJC8sAAAAJ&hl=en"
