@@ -137,8 +137,6 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 </div>
 
-# 📄 Under Review
-
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
