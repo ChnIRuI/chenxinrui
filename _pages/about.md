@@ -34,19 +34,12 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 
 # 📝 Publications
 
-## NeurIPS 2026
-
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
 <div class="badge">NeurIPS 2026</div>
 <img src='images/dualsft.png' alt="DualSFT framework" width="100%">
 </div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-<div style="text-align:right; margin-bottom:6px;">
-<span class="badge">* Corresponding Author</span>
 </div>
 
 [One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://arxiv.org/abs/2605.06166)
@@ -59,8 +52,6 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 
 </div>
 </div>
-
-## ICLR 2026
 
 <div class='paper-box'>
 <div class='paper-box-image'>
@@ -85,8 +76,6 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 
 </div>
 </div>
-
-## EMNLP 2026
 
 <div class='paper-box'>
 <div class='paper-box-image'>
@@ -138,8 +127,6 @@ Xu Cao<sup>*†</sup>, **Xinrui Chen**<sup>*</sup>, Qing Liu, Mengyang Li, Ou Wu
 
 </div>
 </div>
-
-## NeurIPS 2026
 
 <div class='paper-box'>
 <div class='paper-box-image'>
