@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xinrui Chen"
+title                    : "Xinrui Chen (陈新睿)"
 description              : "Research interests include LLM post-training, Agentic RL, and RSI."
 repository               : "ChnIRuI/chenxinrui"
 google_scholar_stats_use_cdn : true
