@@ -46,7 +46,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-**[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://neurips.cc/virtual/2026/loc/sydney/poster/149252) (<span style="color: #d93025; font-weight: bold;">CCF-A</span>,, First Author)**
+**[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://neurips.cc/virtual/2026/loc/sydney/poster/149252) (<span style="color: #d93025; font-weight: bold;">CCF-A</span>, First Author)**
 
 **Xinrui Chen**, Liu Yang, Ou Wu<sup>*</sup>
 
@@ -68,7 +68,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-**[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://proceedings.iclr.cc/paper_files/paper/2026/hash/72c12e48c6135762f56bf188cd2479d2-Abstract-Conference.html) (<span style="color: #d93025; font-weight: bold;">CCF-A</span>,, First Author)**
+**[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://proceedings.iclr.cc/paper_files/paper/2026/hash/72c12e48c6135762f56bf188cd2479d2-Abstract-Conference.html) (<span style="color: #d93025; font-weight: bold;">CCF-A</span>, First Author)**
 
 **Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
 
@@ -90,7 +90,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-**[Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning](https://aclanthology.org/2026.emnlp-main.862/) (<span style="color: #d93025; font-weight: bold;">CCF-B</span>,, First Author)**
+**[Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning](https://aclanthology.org/2026.emnlp-main.862/) (<span style="color: #d93025; font-weight: bold;">CCF-B</span>, First Author)**
 
 **Xinrui Chen**, Jianhao Zhang, Ou Wu<sup>*</sup>, Di Gao
 
@@ -112,7 +112,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-**[R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/) (<span style="color: #d93025; font-weight: bold;">CCF-B</span>,, Co-first Author)**
+**[R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/) (<span style="color: #d93025; font-weight: bold;">CCF-B</span>, Co-first Author)**
 
 Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>*</sup>, Yi Du
 
