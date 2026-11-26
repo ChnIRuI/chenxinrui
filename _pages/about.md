@@ -46,7 +46,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://neurips.cc/virtual/2026/loc/sydney/poster/149252)
+**[One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://neurips.cc/virtual/2026/loc/sydney/poster/149252) (CCF-A, First Author)**
 
 **Xinrui Chen**, Liu Yang, Ou Wu<sup>*</sup>
 
@@ -68,7 +68,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://proceedings.iclr.cc/paper_files/paper/2026/hash/72c12e48c6135762f56bf188cd2479d2-Abstract-Conference.html)
+**[Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://proceedings.iclr.cc/paper_files/paper/2026/hash/72c12e48c6135762f56bf188cd2479d2-Abstract-Conference.html) (CCF-A, First Author)**
 
 **Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
 
@@ -90,7 +90,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning](https://aclanthology.org/2026.emnlp-main.862/)
+**[Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning](https://aclanthology.org/2026.emnlp-main.862/) (CCF-B, First Author)**
 
 **Xinrui Chen**, Jianhao Zhang, Ou Wu<sup>*</sup>, Di Gao
 
@@ -112,7 +112,7 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 </div>
 <div class='paper-box-text' markdown="1">
 
-[R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/)
+**[R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/) (CCF-B, Co-first Author)**
 
 Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>*</sup>, Yi Du
 
@@ -134,7 +134,7 @@ Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou W
 </div>
 <div class='paper-box-text' markdown="1">
 
-[DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization](https://neurips.cc/virtual/2026/loc/sydney/poster/151453)
+**[DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization](https://neurips.cc/virtual/2026/loc/sydney/poster/151453) (CCF-A, Second Author)**
 
 Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
@@ -147,6 +147,8 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 </div>
 
+# 📄 Under Review
+
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
@@ -156,7 +158,7 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 <div class='paper-box-text' markdown="1">
 
-[HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training](https://arxiv.org/abs/2609.33570)
+**[HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training](https://arxiv.org/abs/2609.33570) (First Author)**
 
 **Xinrui Chen**, Mengyang Li, Ou Wu<sup>*</sup>, Ji Zhang
 
@@ -178,7 +180,7 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 <div class='paper-box-text' markdown="1">
 
-**Sample-wise Interactions: Dissecting the Stability-Plasticity Dilemma in LLM Fine-tuning**
+**Sample-wise Interactions: Dissecting the Stability-Plasticity Dilemma in LLM Fine-tuning** **(First Author)**
 
 **Xinrui Chen**
 
@@ -198,7 +200,7 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Parser Transitions Already Reveal Structural Responsibility: KV Persistence for Structured Generation](https://arxiv.org/abs/2608.28276)
+**[Parser Transitions Already Reveal Structural Responsibility: KV Persistence for Structured Generation](https://arxiv.org/abs/2608.28276) (Second Author, Corresponding Author)**
 
 Linze Wu, **Xinrui Chen**<sup>*</sup>
 
@@ -218,7 +220,7 @@ Linze Wu, **Xinrui Chen**<sup>*</sup>
 </div>
 <div class='paper-box-text' markdown="1">
 
-[Token Utility Is Selection-Conditioned: Coupled Selection of Prompt Context and Response Supervision for Instruction Tuning](https://arxiv.org/abs/2609.22943)
+**[Token Utility Is Selection-Conditioned: Coupled Selection of Prompt Context and Response Supervision for Instruction Tuning](https://arxiv.org/abs/2609.22943) (Second Author)**
 
 Can Wu, **Xinrui Chen**, Ou Wu<sup>*</sup>, Yi Du
 
