@@ -34,6 +34,8 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 
 # 📝 Publications
 
+## Accepted
+
 <div class='paper-box'>
 <div class='paper-box-image'>
 <div>
@@ -41,6 +43,7 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 <img src='images/dualsft.png' alt="DualSFT framework" width="100%">
 </div>
 </div>
+<div class='paper-box-text' markdown="1">
 
 [One Algorithm, Two Goals: Dual Scoring for Parameter and Data Selection in LLM Fine-Tuning](https://arxiv.org/abs/2605.06166)
 
@@ -62,17 +65,13 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 </div>
 <div class='paper-box-text' markdown="1">
 
-<div style="text-align:right; margin-bottom:6px;">
-<span class="badge">* Corresponding Author</span>
-</div>
-
 [Robust LLM Unlearning via Post Judgment and Multi-round Thinking](https://openreview.net/forum?id=GBTUVO9vkj)
 
 **Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
 
 **[GitHub](https://github.com/ChnIRuI/PoRT_LLM_Unlearning)**
 
-- Proposed **PoRT**, a robust unlearning framework integrating dynamic input cleaning, confidence-aware post-judgment of questions and responses, and selective multi-round self-correction to defend against adversarial attacks.
+- Proposed **PoRT**, a robust unlearning framework that integrates dynamic input cleaning, joint post-judgment of queries and responses, and selective multi-round self-correction to defend against adversarial attacks.
 
 </div>
 </div>
@@ -85,10 +84,6 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
-
-<div style="text-align:right; margin-bottom:6px;">
-<span class="badge">* Corresponding Author</span>
-</div>
 
 [Two to Tango: Coupled Task–Reference Selection for Safe LLM Fine-Tuning](https://aclanthology.org/2026.emnlp-main.862/)
 
@@ -110,20 +105,13 @@ My research focuses on **efficient post-training, safety, and knowledge updating
 </div>
 <div class='paper-box-text' markdown="1">
 
-<div style="text-align:right; margin-bottom:6px;">
-<span class="badge">* Equal Contribution</span>
-<span class="badge">‡ Corresponding Author</span>
-</div>
-
 [R²Edit: Mastering Relation Replacement Editing via Target-Smoothed Forgetting and Self-Paced Learning](https://aclanthology.org/2026.emnlp-main.869/)
 
-Xu Cao<sup>*†</sup>, **Xinrui Chen**<sup>*</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>‡</sup>, Yi Du
+Xu Cao<sup>*</sup>, **Xinrui Chen**<sup>*</sup>, Qing Liu, Mengyang Li, Ou Wu<sup>‡</sup>, Yi Du
 
 **[GitHub](https://github.com/caoxu0109/R2Edit)**
 
 - Proposed **R²Edit** and ReEditBench for relation-replacement editing, combining target-smoothed forgetting to suppress obsolete relations with curriculum-guided self-paced learning to introduce new relations.
-
-<small><sup>*</sup> Equal contribution. <sup>†</sup> Work conducted during an internship at HIAS, UCAS. <sup>‡</sup> Corresponding author.</small>
 
 </div>
 </div>
@@ -137,17 +125,13 @@ Xu Cao<sup>*†</sup>, **Xinrui Chen**<sup>*</sup>, Qing Liu, Mengyang Li, Ou Wu
 </div>
 <div class='paper-box-text' markdown="1">
 
-<div style="text-align:right; margin-bottom:6px;">
-<span class="badge">* Corresponding Author</span>
-</div>
-
 [DRIVE: Fine-tuning via Data Contribution- and Diversity-aware Weighting with Prior Regularization](https://arxiv.org/abs/2610.32501)
 
 Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
 **[GitHub](https://github.com/luciabcd/DRIVE)**
 
-- Proposed **DRIVE**, a unified differentiable data-weighting framework that integrates Shapley-based contribution decomposition, covariance-based diversity modeling, and prior regularization to balance knowledge retention and task adaptation.
+- Proposed **DRIVE**, a differentiable data-weighting framework that integrates Shapley-based contribution decomposition, covariance-based diversity modeling, and prior regularization to balance knowledge retention and task adaptation.
 
 </div>
 </div>
@@ -162,10 +146,6 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
-
-<div style="text-align:right; margin-bottom:6px;">
-<span class="badge">* Corresponding Author</span>
-</div>
 
 [HiLoRe: What to Store, Compress, or Recompute for Efficient GRPO Training](https://arxiv.org/abs/2609.33570)
 
@@ -189,11 +169,9 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
 **Sample-wise Interactions: Dissecting the Stability-Plasticity Dilemma in LLM Fine-tuning**
 
-**Xinrui Chen** · First Author
+**Xinrui Chen**
 
-- Studies sample-wise interactions during LLM fine-tuning, analyzing how individual training examples jointly influence optimization stability and task adaptation.
-
-<!-- Add the complete co-author list and author-role markers after confirmation. -->
+- Proposed **SID**, a sample-wise interaction framework for characterizing how individual training examples jointly shape optimization stability and task adaptation during LLM fine-tuning.
 
 </div>
 </div>
@@ -206,10 +184,6 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 </div>
 </div>
 <div class='paper-box-text' markdown="1">
-
-<div style="text-align:right; margin-bottom:6px;">
-<span class="badge">* Corresponding Author</span>
-</div>
 
 [Parser Transitions Already Reveal Structural Responsibility: KV Persistence for Structured Generation](https://arxiv.org/abs/2608.28276)
 
