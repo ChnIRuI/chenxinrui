@@ -231,6 +231,16 @@ Can Wu, **Xinrui Chen**, Ou Wu<sup>*</sup>, Yi Du
 </div>
 </div>
 
+# 📝 Patents
+
+- **A Large Language Model Unlearning Method, System, and Medium Based on Post-filtering and Repeated Thinking**, <span style="color: #d93025; font-weight: bold;">Invention Patent Application (Accepted)</span>, P.R. China Patent Application No. 202610119333.9 (2026.01).
+
+  **Xinrui Chen**, Ou Wu
+
+- **A Lightweight LLM Inference Method, System, and Medium Based on Dictionary-level Token Masking**, <span style="color: #d93025; font-weight: bold;">Invention Patent Application (Accepted)</span>, P.R. China Patent Application No. 202610607888.8 (2026.05).
+
+  Ou Wu, Shuxin Liu, **Xinrui Chen**, Yi Du
+
 # 🏅 Honors and Awards
 
 - *2026.10*, **National Scholarship (Graduate)**.
