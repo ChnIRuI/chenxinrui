@@ -52,8 +52,6 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 
 **Keywords:** Efficient Fine-tuning · Joint Data–Parameter Selection
 
-**[GitHub](https://github.com/ChnIRuI/DualSFT)**
-
 - Proposed **DualSFT**, a one-shot dual-scoring framework that jointly selects trainable parameters and training samples under a shared validation objective, deriving both selection signals from a unified gradient-interaction matrix.
 
 </div>
@@ -73,8 +71,6 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 **Xinrui Chen**, Xu Cao, Jianhao Zhang, Pinlong Zhao, Di Gao, Ou Wu<sup>*</sup>
 
 **Keywords:** Robust Unlearning · Adversarial Defense
-
-**[GitHub](https://github.com/ChnIRuI/PoRT_LLM_Unlearning)**
 
 - Proposed **PoRT**, a robust unlearning framework that integrates dynamic input cleaning, joint post-judgment of queries and responses, and selective multi-round self-correction to defend against adversarial attacks.
 
@@ -96,8 +92,6 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 
 **Keywords:** Safe Fine-tuning · Task–Reference Selection
 
-**[GitHub](https://github.com/ChnIRuI/DualSelect)**
-
 - Proposed **DualSelect**, a coupled task–reference selection framework that identifies task-conditioned safety references and selects compatible task samples through entropy-regularized scoring and reference-gradient correction.
 
 </div>
@@ -118,8 +112,6 @@ Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou W
 
 **Keywords:** Knowledge Editing · Relation Replacement
 
-**[GitHub](https://github.com/caoxu0109/R2Edit)**
-
 - Proposed **R²Edit** and ReEditBench for relation-replacement editing, combining target-smoothed forgetting to suppress obsolete relations with curriculum-guided self-paced learning to introduce new relations.
 
 </div>
@@ -139,8 +131,6 @@ Xu Cao<sup>‡</sup>, **Xinrui Chen**<sup>‡</sup>, Qing Liu, Mengyang Li, Ou W
 Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 
 **Keywords:** Data-centric Fine-tuning · Diversity-aware Weighting
-
-**[GitHub](https://github.com/luciabcd/DRIVE)**
 
 - Proposed **DRIVE**, a differentiable data-weighting framework that integrates Shapley-based contribution decomposition, covariance-based diversity modeling, and prior regularization to balance knowledge retention and task adaptation.
 
@@ -163,8 +153,6 @@ Qing Liu, **Xinrui Chen**, Yi Du<sup>*</sup>, Ou Wu, Weiyao Zhu
 **Xinrui Chen**, Mengyang Li, Ou Wu<sup>*</sup>, Ji Zhang
 
 **Keywords:** Efficient GRPO · Activation Management
-
-**[GitHub](https://github.com/ChnIRuI/HiLoRe)**
 
 - Proposed **HiLoRe**, an update-aware activation-recovery framework for GRPO training that coordinates high-precision storage, low-precision compression, and deterministic recomputation under memory and approximation-risk constraints.
 
