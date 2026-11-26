@@ -31,9 +31,9 @@ My research interests include **LLM post-training, agentic reinforcement learnin
 - *2026.09*: 🎉🎉 **Two papers** accepted at **NeurIPS 2026**. *(Efficient LLM Fine-tuning & Data-centric Adaptation)*
 - *2026.08*: 🎉🎉 **Two papers** accepted at **EMNLP 2026**. *(Safe LLM Fine-tuning & Relation Replacement Editing)*
 - *2026.01*: 🎉 **One paper** accepted at **ICLR 2026**. *(Robust LLM Unlearning & Model Safety)*
-- *2025.09*: 🎓 Began my M.S. studies in Artificial Intelligence at the **Hangzhou Institute for Advanced Study, UCAS**, under the supervision of Prof. Ou Wu.
+- *2025.09*: 🎓 Began my M.S. studies in Artificial Intelligence at the **HIAS, UCAS**.
 - *2025.06*: 🎓 Graduated from **Northeastern University** with a B.Eng. in Software Engineering.
-- *2024.09*: 🎉 Received a recommendation-based admission to the **Hangzhou Institute for Advanced Study, UCAS**, to pursue graduate study under Prof. Ou Wu.
+- *2024.09*: 🎉 Received a recommendation-based admission to the **HIAS, UCAS**, to pursue graduate study under Prof. Ou Wu.
 
 # 📝 Publications
 
