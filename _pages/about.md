@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a master's student in Artificial Intelligence at the **Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences (UCAS)**, under the supervision of Professor [Ou Wu](https://www.scholat.com/wuou). I received my bachelor's degree in Software Engineering from **Northeastern University**.
+# 👋🏻 Welcome!
 
-My research interests include **LLM post-training, agentic reinforcement learning, and recursive self-improvement (RSI)**. I am particularly interested in data-centric optimization, efficient model adaptation, LLM safety and unlearning, and reliable knowledge updating, with the broader goal of developing more capable, efficient, and trustworthy AI systems.
+Hello! I am **Xinrui Chen (陈新睿)**, a master's student in Artificial Intelligence at the **Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences (UCAS)**, under the supervision of Professor [Ou Wu](https://www.scholat.com/wuou). I received my bachelor's degree in Software Engineering from **Northeastern University**.
 
-My research has led to papers accepted at **NeurIPS, ICLR, and EMNLP**, covering efficient LLM fine-tuning, robust unlearning, and safe knowledge updating. I am also exploring how reinforcement learning, agentic systems, and recursive learning can enable LLMs to continuously improve through interaction and experience.
+My research interests include **LLM post-training, agentic reinforcement learning, and recursive self-improvement (RSI)**, with a focus on efficient adaptation, model safety, and knowledge updating. My work has been accepted at **NeurIPS, ICLR, and EMNLP**. I am also exploring how agentic systems can enable continuous model improvement through interaction and experience.
 
 **I am currently seeking industry opportunities and Ph.D. positions in large language models. Please feel free to contact me via email ([chenxinrui25@mails.ucas.ac.cn](mailto:chenxinrui25@mails.ucas.ac.cn), [chnirui224@gmail.com](mailto:chnirui224@gmail.com)).**
 
